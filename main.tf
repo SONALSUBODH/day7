@@ -1,5 +1,8 @@
 module "instance" {
   source = "../day6"
-  ami_id           = "var.ami_id"  
-  instance_type = "t2.micro"
-    tags = 
+  ami_id           = "ami-0a1235697f4afa8a4"  
+  instance_type    = "t2.micro"
+  instance_tags    = { 
+    }
+}
+
